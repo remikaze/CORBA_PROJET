@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Renouveller location" version="3">
+  <DEPS>
+    <ID name="Renouveller location" mc="Interaction" uid="1a88d046-9656-435e-92fc-e7804b06a196"/>
+    <COMPID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="1e26b040-2c17-448c-b7a8-275f12cbdba0"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Renouveller location" mc="Interaction" uid="1a88d046-9656-435e-92fc-e7804b06a196"/>
+    <PID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Renouveller location]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="387e1755-8c51-427a-9a1f-c5ce70f8923a"/>
+          <PID name="Renouveller location" mc="Interaction" uid="1a88d046-9656-435e-92fc-e7804b06a196"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="1e26b040-2c17-448c-b7a8-275f12cbdba0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

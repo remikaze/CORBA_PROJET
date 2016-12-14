@@ -1,0 +1,256 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CLIENT" version="3">
+  <DEPS>
+    <ID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+    <EXTID name="PROPRIETAIRE" mc="Component" uid="9bc1db10-47e2-49ad-a74f-52f1077712ad"/>
+    <EXTID name="REGISTRAR" mc="Component" uid="b9e2deba-1bbc-4be8-babb-92ce29b61164"/>
+    <EXTID name="TLD / DNS" mc="Component" uid="d3ec605f-73a4-485d-a87e-587b3f581bd7"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+    <PID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CLIENT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Realization">
+        <OBJECT>
+          <ID name="" mc="ComponentRealization" uid="eef2bc84-3c44-4c03-96cd-87255c1b0c93"/>
+          <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="RealizingClassifier">
+              <ID name="PROPRIETAIRE" mc="Component" uid="9bc1db10-47e2-49ad-a74f-52f1077712ad"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="f0078d87-4bf9-416d-90da-5524d26b0f93"/>
+          <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="d4302a39-49f7-4ce5-9858-6d92166bf847"/>
+                <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <REFOBJ>
+                <ID name="" mc="NaryConnectorEnd" uid="c0a7611b-f069-4b81-9429-fec9baa8d2d2"/>
+                <PID name="TLD / DNS" mc="Component" uid="d3ec605f-73a4-485d-a87e-587b3f581bd7"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port1" mc="Port" uid="7af5241b-7f3c-421f-9243-55439322be4e"/>
+          <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="ba3d685d-dd0a-4648-a063-13855bdbb69e"/>
+                <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="df3905cc-8f10-438b-9113-306cbc5893e3"/>
+                <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="75df5a15-3d74-4803-be04-745c917d693f"/>
+                      <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="6186b4f0-6c57-4699-b68a-88a44ac9efb8"/>
+                            <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="75df5a15-3d74-4803-be04-745c917d693f"/>
+                              </COMP>
+                              <LINK relation="Consumer">
+                                <REFOBJ>
+                                  <ID name="RequiredInterface" mc="RequiredInterface" uid="c8406d8b-c31e-4a89-bc49-0beb9f3429d6"/>
+                                  <PID name="TLD / DNS" mc="Component" uid="d3ec605f-73a4-485d-a87e-587b3f581bd7"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <COMPID name="" mc="NaryConnectorEnd" uid="df3905cc-8f10-438b-9113-306cbc5893e3"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Provider">
+                    <REFOBJ>
+                      <ID name="ProvidedInterface" mc="ProvidedInterface" uid="ba3d685d-dd0a-4648-a063-13855bdbb69e"/>
+                      <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Port2" mc="Port" uid="9246f0cf-29e3-4ebf-8d6f-213b29d5cd06"/>
+          <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="ProvidedInterface" uid="15b1bd88-fd61-4313-8e48-7e7eec7a13ec"/>
+                <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <OBJECT>
+                <ID name="" mc="NaryConnectorEnd" uid="dda925a9-b4ac-4c30-bc91-979bec388a44"/>
+                <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="NaryLink">
+                    <OBJECT>
+                      <ID name="" mc="NaryConnector" uid="6c6a09d3-f903-4dcf-b3da-c11a59930744"/>
+                      <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="NaryLinkEnd">
+                          <OBJECT>
+                            <ID name="" mc="NaryConnectorEnd" uid="e98dbb2f-66d2-424f-9e29-0fa821ab6e35"/>
+                            <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="NaryLink">
+                                <COMPID name="" mc="NaryConnector" uid="6c6a09d3-f903-4dcf-b3da-c11a59930744"/>
+                              </COMP>
+                              <LINK relation="Consumer">
+                                <REFOBJ>
+                                  <ID name="RequiredInterface" mc="RequiredInterface" uid="f0e9ce77-aa10-42e8-b6c6-86c9bb5af153"/>
+                                  <PID name="REGISTRAR" mc="Component" uid="b9e2deba-1bbc-4be8-babb-92ce29b61164"/>
+                                </REFOBJ>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                          <COMPID name="" mc="NaryConnectorEnd" uid="dda925a9-b4ac-4c30-bc91-979bec388a44"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Provider">
+                    <REFOBJ>
+                      <ID name="ProvidedInterface" mc="ProvidedInterface" uid="15b1bd88-fd61-4313-8e48-7e7eec7a13ec"/>
+                      <PID name="CLIENT" mc="Component" uid="f858d1ff-904b-4602-8d2d-74027983bb1a"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

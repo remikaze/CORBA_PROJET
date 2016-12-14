@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="corba_projet" version="3">
+  <DEPS>
+    <ID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <COMPID name="Changer de Registrar" mc="UseCase" uid="59a48c66-2e95-49cc-b9ba-f449cc3104e1"/>
+    <COMPID name="Client" mc="Actor" uid="2df0585c-2c1a-4e70-b55c-21da04106e86"/>
+    <COMPID name="Configuration nom de Domaine" mc="UseCase" uid="09569065-f1fe-4a5c-9fa3-1a4962adb2bb"/>
+    <COMPID name="Déclaration de correspondance nom symbolique" mc="UseCase" uid="190f9df4-6e8f-457a-b087-70fa57c76cd1"/>
+    <COMPID name="Interaction" mc="Interaction" uid="1d38728a-e2db-41ec-9395-8991ef12fe7c"/>
+    <COMPID name="Interaction1" mc="Interaction" uid="8f15c8d9-d781-44ef-8293-4a4820fe280c"/>
+    <COMPID name="Liste des noms de Domaines" mc="UseCase" uid="1e2c102c-6711-4145-9533-19df44c117d0"/>
+    <COMPID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+    <COMPID name="Mise à jour nom de Domaine" mc="UseCase" uid="c964bbd9-d536-456b-a90d-6db4ea225230"/>
+    <COMPID name="Node" mc="Node" uid="c10d9c4a-c41a-4a47-a032-9ccd2bb27d60"/>
+    <COMPID name="Paiement" mc="UseCase" uid="874380a3-da0e-4618-bc96-bd0f199adc30"/>
+    <COMPID name="Payer délégataire" mc="UseCase" uid="c9cf8b16-e864-4018-b0a7-24348c448925"/>
+    <COMPID name="Propriétaire" mc="Actor" uid="9ee7c5d0-8fa4-48ef-8aa7-1239dc863785"/>
+    <COMPID name="Recherche Informations nom de Domaine" mc="UseCase" uid="9e6022d1-c129-4c06-99b9-789fdb96cb16"/>
+    <COMPID name="Renouveler Location du nom de Domaine" mc="UseCase" uid="604b0b72-efeb-47cc-9f85-51eafe62de34"/>
+    <COMPID name="Récupérer Tarif Nom de Domaine" mc="UseCase" uid="7b221e7c-6b43-4e4b-8085-ba583cd15ec6"/>
+    <COMPID name="Résolution DNS" mc="UseCase" uid="0211438f-75f9-41c2-8bcf-a36b145c6595"/>
+    <COMPID name="Transférer le nom de Domaine" mc="UseCase" uid="3214de48-63ab-4595-9e74-96a728e2bf2b"/>
+    <COMPID name="Vérification coordonnées bancaire" mc="UseCase" uid="2721ce36-cd57-4b4f-98d9-c1650c33c673"/>
+    <COMPID name="Vérification nom de Domaine" mc="UseCase" uid="8d2bcd13-de80-4b7a-b093-90dc4be94e49"/>
+    <COMPID name="corba_projet Deployment diagram" mc="DeploymentDiagram" uid="80048369-ec47-446e-874a-72d7290f9ccd"/>
+    <COMPID name="corba_projet Use Case diagram" mc="UseCaseDiagram" uid="74f9ca9e-d85b-495a-b37c-599a34084cd2"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="7819cb7c-147a-4ef8-a81e-ee5b03a6dc71"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <PID name="CORBA_PROJET" mc="Project" uid="9f2483ee-99af-4e18-a51a-1045a8237749"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[corba_projet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Interaction" uid="1d38728a-e2db-41ec-9395-8991ef12fe7c"/>
+        <COMPID name="Interaction1" mc="Interaction" uid="8f15c8d9-d781-44ef-8293-4a4820fe280c"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Client" mc="Actor" uid="2df0585c-2c1a-4e70-b55c-21da04106e86"/>
+        <COMPID name="Résolution DNS" mc="UseCase" uid="0211438f-75f9-41c2-8bcf-a36b145c6595"/>
+        <COMPID name="Recherche Informations nom de Domaine" mc="UseCase" uid="9e6022d1-c129-4c06-99b9-789fdb96cb16"/>
+        <COMPID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+        <COMPID name="Propriétaire" mc="Actor" uid="9ee7c5d0-8fa4-48ef-8aa7-1239dc863785"/>
+        <COMPID name="Renouveler Location du nom de Domaine" mc="UseCase" uid="604b0b72-efeb-47cc-9f85-51eafe62de34"/>
+        <COMPID name="Node" mc="Node" uid="c10d9c4a-c41a-4a47-a032-9ccd2bb27d60"/>
+        <COMPID name="Récupérer Tarif Nom de Domaine" mc="UseCase" uid="7b221e7c-6b43-4e4b-8085-ba583cd15ec6"/>
+        <COMPID name="Payer délégataire" mc="UseCase" uid="c9cf8b16-e864-4018-b0a7-24348c448925"/>
+        <COMPID name="Liste des noms de Domaines" mc="UseCase" uid="1e2c102c-6711-4145-9533-19df44c117d0"/>
+        <COMPID name="Transférer le nom de Domaine" mc="UseCase" uid="3214de48-63ab-4595-9e74-96a728e2bf2b"/>
+        <COMPID name="Déclaration de correspondance nom symbolique" mc="UseCase" uid="190f9df4-6e8f-457a-b087-70fa57c76cd1"/>
+        <COMPID name="Changer de Registrar" mc="UseCase" uid="59a48c66-2e95-49cc-b9ba-f449cc3104e1"/>
+        <COMPID name="Paiement" mc="UseCase" uid="874380a3-da0e-4618-bc96-bd0f199adc30"/>
+        <COMPID name="Vérification coordonnées bancaire" mc="UseCase" uid="2721ce36-cd57-4b4f-98d9-c1650c33c673"/>
+        <COMPID name="Configuration nom de Domaine" mc="UseCase" uid="09569065-f1fe-4a5c-9fa3-1a4962adb2bb"/>
+        <COMPID name="Vérification nom de Domaine" mc="UseCase" uid="8d2bcd13-de80-4b7a-b093-90dc4be94e49"/>
+        <COMPID name="Mise à jour nom de Domaine" mc="UseCase" uid="c964bbd9-d536-456b-a90d-6db4ea225230"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="7819cb7c-147a-4ef8-a81e-ee5b03a6dc71"/>
+        <COMPID name="corba_projet Use Case diagram" mc="UseCaseDiagram" uid="74f9ca9e-d85b-495a-b37c-599a34084cd2"/>
+        <COMPID name="corba_projet Deployment diagram" mc="DeploymentDiagram" uid="80048369-ec47-446e-874a-72d7290f9ccd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

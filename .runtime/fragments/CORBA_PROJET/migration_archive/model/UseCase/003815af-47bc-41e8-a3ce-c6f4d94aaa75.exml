@@ -1,0 +1,184 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Louer un nom de Domaine" version="3">
+  <DEPS>
+    <ID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+    <EXTID name="Mise à jour nom de Domaine" mc="UseCase" uid="c964bbd9-d536-456b-a90d-6db4ea225230"/>
+    <EXTID name="Paiement" mc="UseCase" uid="874380a3-da0e-4618-bc96-bd0f199adc30"/>
+    <EXTID name="Récupérer Tarif Nom de Domaine" mc="UseCase" uid="7b221e7c-6b43-4e4b-8085-ba583cd15ec6"/>
+    <EXTID name="Vérification nom de Domaine" mc="UseCase" uid="8d2bcd13-de80-4b7a-b093-90dc4be94e49"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+    <PID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Louer un nom de Domaine]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="dafe839c-1a5c-4819-83d1-40385a87f7df"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Récupérer Tarif Nom de Domaine" mc="UseCase" uid="7b221e7c-6b43-4e4b-8085-ba583cd15ec6"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="6e07ff2a-7b67-442e-98fe-357f69218eab"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Paiement" mc="UseCase" uid="874380a3-da0e-4618-bc96-bd0f199adc30"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="1ffe66f5-63fc-4796-8110-271b607f8598"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Vérification nom de Domaine" mc="UseCase" uid="8d2bcd13-de80-4b7a-b093-90dc4be94e49"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="96c2e152-c04a-4498-9d68-a0dc55102b3e"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Mise à jour nom de Domaine" mc="UseCase" uid="c964bbd9-d536-456b-a90d-6db4ea225230"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="d45598a8-d073-44d4-b1ad-7601fb632fb4"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="257504c9-7dbb-4c6a-8552-13c45130860f"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="39d3158f-d4f6-4ab6-afbb-ce9f040670ea"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="58d35b5e-8b01-4615-8451-fbd2880e1044"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="99e1053c-4753-407b-9a53-bdc8586cb592"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="6b48f6b8-8b8f-4dee-ab82-d68163a42e73"/>
+          <PID name="Louer un nom de Domaine" mc="UseCase" uid="003815af-47bc-41e8-a3ce-c6f4d94aaa75"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

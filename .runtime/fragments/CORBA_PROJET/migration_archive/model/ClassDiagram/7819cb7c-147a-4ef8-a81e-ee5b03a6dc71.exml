@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="overview diagram" version="3">
+  <DEPS>
+    <ID name="overview diagram" mc="ClassDiagram" uid="7819cb7c-147a-4ef8-a81e-ee5b03a6dc71"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="overview diagram" mc="ClassDiagram" uid="7819cb7c-147a-4ef8-a81e-ee5b03a6dc71"/>
+    <PID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">142</ATT>
+      <ATT name="UiData"><![CDATA[eJztU9tO4zAQ/RXL73WbpbvtSqEIGlQhshS1gMQTmsTTrsGxK9u95O9xmpSlRY2yEmJf9sn2eM6Z25nwbJNJskJjhVanNGAdSs4G4Th5xtQRwb2JEpcv8JRqM2eZ5iiFZlzA3EDGkAunDbMOnHhhKDFD5Wz5TndOo2y6fUflm5IMnrV5egvaoYPw1ugFGpcTBZmPJSHXSxeBA//3AHKJVRJqKSVtD8L2DvABOnW5RLpXwre6Emzhb1mqDbIS2yC/IdgUOPJdsMuNm+CsYZQbT1EhCW5clFz5HLfX4sJxBkvpDopsl+XUFW5QgkPu8zjo2a/CRFaFxWcuwdpqEqTXD36mSS9tBd0etLo467egH2AL8XvSOYEfPO0F9d32bO5a6bWKIUF5EHjqjFBzOtC+lSuBa1J1I2xvvWqL0RKv1FBnC22F82M4Qt2AavhbSG6wYIiFLVpYHUcRsVAvtrn7xTwysPbpxJCj2ZfeSe327PaFl3jLZMHgF2aP8Gv25e9Q/0Rsgh9RQTRi8fnj5eTp4nx4PZqM72+izxFGg7V7P6o/onknge5/CXylBO7Gt589+6Nfr31yhq0=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[overview diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

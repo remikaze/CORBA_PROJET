@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interaction Sequence diagram" version="3">
+  <DEPS>
+    <ID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="1e26b040-2c17-448c-b7a8-275f12cbdba0"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Interaction Sequence diagram" mc="SequenceDiagram" uid="1e26b040-2c17-448c-b7a8-275f12cbdba0"/>
+    <PID name="Renouveller location" mc="Interaction" uid="1a88d046-9656-435e-92fc-e7804b06a196"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">44</ATT>
+      <ATT name="UiData"><![CDATA[eJztU1FP2zAQ/iuW3+umWbfyEIqgQVVFRlG7TeIJXeJrZ+bYne1A8+9xaMJoUaNMQuxlT7bO93133/m76GybS/KAxgqtTumABZScjaN5eo+ZI4L7ECWu3OAp1WbNcs1RCs24gLWBnCEXThtm8XeBKkOGEnNUzr5EmsRpvqwj8S5CSQ732ty9lA7oOLoxeoPGlURB7itKKHXhYnDg336ALLBuRRVS0v446jeAN9ClKyXSPSFhmxBb5VuWaYNsh+3Q3wRsBhx5U+xy6xa46ljl2lPUSIJbF6cz3+PztbpwXEEh3YHI/k5Om3CDEhxy38fBzL5WIfJQRfx49j+DDDD8kgbDoBdmg1FvODzJeukITnrh6PNqEGYpTyFoH7gE666UflQJpCgPai+dEWpNxzPl0EDm/EBJ0wKphxP1nxGt2rTEmZrofKOtqEiOlOlANfkpJDdYMSTCVhOtj6OIRKhftnv6xTo28OjbSaBEs+/ET60r1awQ3+EtkxWD36A9wo9Zn79D/SvvCX7ECPGUJee3l4u7i/PJ1XQx/34dv483Oizi69/645tXLhj+d8EHu+Db/Oa9v//o0xNEco/P]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Interaction Sequence diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

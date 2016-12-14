@@ -1,0 +1,848 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Changement registrar" version="3">
+  <DEPS>
+    <ID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+    <COMPID name="Changement registrar" mc="SequenceDiagram" uid="97d212f1-fc9a-4cdd-bf85-c941fe5dcf79"/>
+    <EXTID name="Client" mc="Actor" uid="2df0585c-2c1a-4e70-b55c-21da04106e86"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+    <PID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Changement registrar]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="33f5921a-da11-4951-8014-d6620fb05f53"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">218</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Changement du registrar" mc="Message" uid="6f9dd3e6-b6e3-441d-bc85-2f4c82f8d51b"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[Changement du registrar]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="e790673f-c4a8-4cfd-97ec-ed916e2dca62"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="bb4597aa-76ab-454b-8b54-baf3dfcfc805"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="e790673f-c4a8-4cfd-97ec-ed916e2dca62"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">218</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="f247e80e-d548-4c56-9cb3-00cecdeafe42"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="c6003d32-e6b8-453d-93be-8d73944a2c4a"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">462</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="" mc="Message" uid="aaa4b1a2-eb37-45a8-9418-4c2981d11495"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="1002eac4-4e40-448d-a894-2cce952c04af"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="f247e80e-d548-4c56-9cb3-00cecdeafe42"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">218</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="c6003d32-e6b8-453d-93be-8d73944a2c4a"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="1002eac4-4e40-448d-a894-2cce952c04af"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">482</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="bb4597aa-76ab-454b-8b54-baf3dfcfc805"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="0ccfcad2-7c4e-4a75-9353-6556de082dcc"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">68</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Virement possible vers le registrar de destination" mc="Message" uid="31d57b62-8d48-40ab-9367-d557886e9fd9"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[Virement possible vers le registrar de destination]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="ff3ae948-332f-425b-bef1-08779d026cef"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="bb4597aa-76ab-454b-8b54-baf3dfcfc805"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="ff3ae948-332f-425b-bef1-08779d026cef"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">68</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="56480858-7fd3-42ee-bd04-b45e96a88c21"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Banque" mc="Lifeline" uid="49fbdc2d-c833-44b2-a9a8-118942fa0503"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="8ad40b9b-1778-4b23-a33c-7b662e17dc9e"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">88</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Réponse" mc="Message" uid="9ea019e5-1bd5-4254-b5b0-f8aa1d77d0c7"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[Réponse]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="d3df6e32-9270-41d1-9600-14e7f11b5e76"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Banque" mc="Lifeline" uid="49fbdc2d-c833-44b2-a9a8-118942fa0503"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="56480858-7fd3-42ee-bd04-b45e96a88c21"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">68</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="8ad40b9b-1778-4b23-a33c-7b662e17dc9e"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Banque" mc="Lifeline" uid="49fbdc2d-c833-44b2-a9a8-118942fa0503"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="d3df6e32-9270-41d1-9600-14e7f11b5e76"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">108</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="bb4597aa-76ab-454b-8b54-baf3dfcfc805"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CombinedFragment" mc="CombinedFragment" uid="fa001974-f58c-4676-9801-282a17a60043"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="Operator">AltOp</ATT>
+            <ATT name="LineNumber">166</ATT>
+            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Operand">
+              <OBJECT>
+                <ID name="" mc="InteractionOperand" uid="e9a50b87-7e3e-4633-8d34-5c929bcc7851"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Si la réponse est positie]]></ATT>
+                  <ATT name="EndLineNumber">487</ATT>
+                  <ATT name="LineNumber">166</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="Banque" mc="Lifeline" uid="49fbdc2d-c833-44b2-a9a8-118942fa0503"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="bb4597aa-76ab-454b-8b54-baf3dfcfc805"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="Registrar source" mc="Lifeline" uid="c9c46fdc-8133-4614-8028-1cc4c70efa78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="77f6eb65-e104-455c-9a5c-0ef172288438"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">244</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Demande information propriété" mc="Message" uid="6cf4b5fc-837f-422b-bfce-b37cc10a4b9e"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[Demande information propriété]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="48f2f73c-1d88-4dff-8ebe-247cd6358b7d"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="48f2f73c-1d88-4dff-8ebe-247cd6358b7d"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">244</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="cbb05407-e0f2-4cae-806b-5e7f273f3cdc"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar source" mc="Lifeline" uid="c9c46fdc-8133-4614-8028-1cc4c70efa78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="a986dbc0-8c73-45c3-bb64-773077e66982"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">264</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="informations propriété" mc="Message" uid="649eb40a-049e-4f3b-866d-aadefc125291"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[informations propriété]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="40a8724b-0b61-46cb-966a-eb8f3cb88ad6"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar source" mc="Lifeline" uid="c9c46fdc-8133-4614-8028-1cc4c70efa78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="cbb05407-e0f2-4cae-806b-5e7f273f3cdc"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">244</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="a986dbc0-8c73-45c3-bb64-773077e66982"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar source" mc="Lifeline" uid="c9c46fdc-8133-4614-8028-1cc4c70efa78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="40a8724b-0b61-46cb-966a-eb8f3cb88ad6"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">284</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="3daa7278-7d01-4e68-84a5-6745778e1b02"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">328</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Changement propriété" mc="Message" uid="ec3f6035-51dd-4816-8b97-e3123e671d8f"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[Changement propriété]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="4cef4416-e473-40f2-bef6-408645f18182"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="4cef4416-e473-40f2-bef6-408645f18182"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">328</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="e932a292-8920-4818-a2ee-143e8c4ac2c3"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar source" mc="Lifeline" uid="c9c46fdc-8133-4614-8028-1cc4c70efa78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="8cfbf508-cb69-4ed4-a4bf-3e641ecfbd8e"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">348</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="ACK" mc="Message" uid="b0f15207-d3b6-48b3-b2a8-a751d3f3100f"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[ACK]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="4d0fd3cb-ceea-44d4-b1c4-6f632b8b7564"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar source" mc="Lifeline" uid="c9c46fdc-8133-4614-8028-1cc4c70efa78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="e932a292-8920-4818-a2ee-143e8c4ac2c3"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">328</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="8cfbf508-cb69-4ed4-a4bf-3e641ecfbd8e"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar source" mc="Lifeline" uid="c9c46fdc-8133-4614-8028-1cc4c70efa78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="4d0fd3cb-ceea-44d4-b1c4-6f632b8b7564"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">368</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="32167750-77a3-4046-88ec-73f583300a2a"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">393</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Verser 1€ au registrar source" mc="Message" uid="323c47e1-a7e0-4808-8ad8-ae4e2325cb14"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[Verser 1€ au registrar source]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="d4e51f45-13fe-4d0c-9ea3-647e879f6797"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="d4e51f45-13fe-4d0c-9ea3-647e879f6797"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">393</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="1b3f85d1-e484-490a-8bea-569f537ed9af"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Banque" mc="Lifeline" uid="49fbdc2d-c833-44b2-a9a8-118942fa0503"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="ae52fef0-57dc-45e9-8771-9ee338bf224b"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">413</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="ACK" mc="Message" uid="cdcb4c4e-4736-458e-9cbb-1956edaf59b2"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[ACK]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="64e9b981-f3c6-45a1-9fe9-514017c12c43"/>
+                      <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Banque" mc="Lifeline" uid="49fbdc2d-c833-44b2-a9a8-118942fa0503"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="1b3f85d1-e484-490a-8bea-569f537ed9af"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">393</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="ae52fef0-57dc-45e9-8771-9ee338bf224b"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Banque" mc="Lifeline" uid="49fbdc2d-c833-44b2-a9a8-118942fa0503"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="64e9b981-f3c6-45a1-9fe9-514017c12c43"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">433</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="r" mc="Lifeline" uid="bb4597aa-76ab-454b-8b54-baf3dfcfc805"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="BindableInstance" uid="45f82907-7318-4b0f-9bc6-08f412b29d78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Registrar destination" mc="Lifeline" uid="cafcbf65-2cc8-4c83-bd57-b8e7b4be6711"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Registrar destination]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Registrar source" mc="Lifeline" uid="c9c46fdc-8133-4614-8028-1cc4c70efa78"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Registrar source]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Banque" mc="Lifeline" uid="49fbdc2d-c833-44b2-a9a8-118942fa0503"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Banque]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="0dee12b7-a4f4-4f75-9d43-3070e9e153e1"/>
+          <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="BindableInstance" uid="45f82907-7318-4b0f-9bc6-08f412b29d78"/>
+                <PID name="Changement registrar" mc="Interaction" uid="f89d6fde-9711-443e-80ec-557ec88a570c"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Client" mc="Actor" uid="2df0585c-2c1a-4e70-b55c-21da04106e86"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Changement registrar" mc="SequenceDiagram" uid="97d212f1-fc9a-4cdd-bf85-c941fe5dcf79"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

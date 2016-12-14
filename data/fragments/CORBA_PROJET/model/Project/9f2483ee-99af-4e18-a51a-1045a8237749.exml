@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CORBA_PROJET" version="3">
+  <DEPS>
+    <ID name="CORBA_PROJET" mc="Project" uid="9f2483ee-99af-4e18-a51a-1045a8237749"/>
+    <COMPID name="CORBA_PROJET" mc="DiagramSet" uid="dcaa34c3-c815-43bc-a845-c60025659026"/>
+    <COMPID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CORBA_PROJET" mc="Project" uid="9f2483ee-99af-4e18-a51a-1045a8237749"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[CORBA_PROJET]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="CORBA_PROJET" mc="DiagramSet" uid="dcaa34c3-c815-43bc-a845-c60025659026"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

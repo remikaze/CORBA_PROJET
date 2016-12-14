@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="corba_projet Deployment diagram" version="3">
+  <DEPS>
+    <ID name="corba_projet Deployment diagram" mc="DeploymentDiagram" uid="80048369-ec47-446e-874a-72d7290f9ccd"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="corba_projet Deployment diagram" mc="DeploymentDiagram" uid="80048369-ec47-446e-874a-72d7290f9ccd"/>
+    <PID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">29</ATT>
+      <ATT name="UiData"><![CDATA[eJztmlFvozgQgP8K4j0ECJc02rSrNtnrVZttq/Zupb2XyIFpSmvsyHa25d+vTSCbkC3nkgCnO6RIJBM8M/Z8Hnswo4+vETa+A+MhJaemY9mm8fFsdDN/Al8YYSBFpiHiJZyalC2siAaAQ2oFIVowFFkQhIIyK4AlpnEERFiAQV35liy7+TKabGSTtcw0IvRE2WzjgG2ejW4ZXQITsUFQJO1iFNOVmCCB5H9fEV5B6hBZYWx2z0bdrMFe03sRYzB3uuMWdYer+7nlUwbWuq2Gf2PEfRRAkBn79Cru4EHTyrVUkbY04FVM5lfSx+Sr+hLAA1phketkd92doo4zwEhAIP3IjdkXJTK+K8mpuRcO48S2vZNef9gB3xt0PK8PnZOBhzoDNxi4Q/th6PtB8ZBjxMVnQl/IFM0B56zfCxaShXkmuz5HsyWjTyCMn14Y6QiNukmjwg5SDFdkTKMl5aGQoXnDkoaq8WOIAwZKwzTkYoeWXkn4ibxV8n4tLwchficdQWSh6Ehj5g76Hxy796HjyM+76fcqp1+hv55nFUGrxtTwHTsY+hJM33NQx0MSVmT33I7i053P3UHQt4/AqbL174Hxt8NhvGVhhFh8MJelUm9fFz6p6jU+mECvJXBP3RcUEk2VRSQONEjkAonweYtCqZUvkQ+PIKPFFJCZ5I9EUj+QJ7Vlw37L4p66ddQ1FPJH+jIL/T1FF1RaQmQzFg8IcyjuZ6LqGeIXyoIjaBPIf55xAQzoP2gTbKXjGv7F8L9fFZpzwZAvSvRwA+bWNBmWmO1IyCjPVwIWjK6WcrKfZ4JLJah/rjt2vatPO+P31e0yUGYN6qaXYmAdnZo1T6xSiJTzGbE3maApYrVL1ZbYyvZLIB5pUDWuOlVmHteQyGWHyAwulwNfrJja4V+lsvtM1gC02hVmC21V0GYYHLjJd3TqzVJYNpVQay5Anf9EBXpEMKvOo2XKUi1g/6akiVyqXZ+2vFaWTFXoj4ysJs1lyq6QEGC+HCeeYCx/jNWPBo5Z2nKrcXST+B+4CXDLlFJvUNjQsu/WXEe5eRRaFitf+t1yJdQvMQXezHLv1lw6tZw2vtzv/5Wzs3dqZ6WRzrmvdqwLdYSSRqCn8VjXLa7vslni0yiixEqeTK/vSv9K3udI3k/4XUJxhDOcfCfy21GNKaRd4bWni1VsOCK0gMTe/+RUR9e3ksc6780Tmskh/9qIvplpSJ55Qc7L3X6xmDD0ItGYolja352qxcX65i2ytQIu80+cHBrvaKxnjX5fq+ZevQrz8GfzcnJpTc+/fbqbXZyPP1/e3fx1PTn2Gvemlu14/URnG4TCpxwtCJWA8OfNbW27nB8Ti9tG]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[corba_projet Deployment diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

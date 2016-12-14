@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BANQUE" version="3">
+  <DEPS>
+    <ID name="BANQUE" mc="Component" uid="257f3734-38f4-498e-9541-5cda185c4cc8"/>
+    <EXTID name="REGISTRAR" mc="Component" uid="b9e2deba-1bbc-4be8-babb-92ce29b61164"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="BANQUE" mc="Component" uid="257f3734-38f4-498e-9541-5cda185c4cc8"/>
+    <PID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BANQUE]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Port" uid="9f07e917-5eaf-4741-9315-f62941b8a8a0"/>
+          <PID name="BANQUE" mc="Component" uid="257f3734-38f4-498e-9541-5cda185c4cc8"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="RequiredInterface" uid="55b0d06c-a9c8-445a-9e2d-b0830e13eb8e"/>
+                <PID name="BANQUE" mc="Component" uid="257f3734-38f4-498e-9541-5cda185c4cc8"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="OwnedNaryEnd">
+              <REFOBJ>
+                <ID name="" mc="NaryConnectorEnd" uid="01a4ad52-4e32-4371-a28b-e55a161f2990"/>
+                <PID name="REGISTRAR" mc="Component" uid="b9e2deba-1bbc-4be8-babb-92ce29b61164"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

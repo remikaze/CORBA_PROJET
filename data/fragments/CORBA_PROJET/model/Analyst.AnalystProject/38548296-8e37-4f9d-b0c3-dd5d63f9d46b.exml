@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CORBA_PROJET" version="4">
+  <OBJECT>
+    <ID name="CORBA_PROJET" mc="Analyst.AnalystProject" uid="38548296-8e37-4f9d-b0c3-dd5d63f9d46b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[CORBA_PROJET]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,893 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Résolution DNS" version="3">
+  <DEPS>
+    <ID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+    <COMPID name="Résolution DNS" mc="SequenceDiagram" uid="d171a4dc-a9bc-441f-a57c-f932d32b4384"/>
+    <EXTID name="Client" mc="Actor" uid="2df0585c-2c1a-4e70-b55c-21da04106e86"/>
+    <EXTID name="Résolution DNS" mc="UseCase" uid="0211438f-75f9-41c2-8bcf-a36b145c6595"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+    <PID name="corba_projet" mc="Package" uid="33bd2232-a876-42e5-b02f-5f69b248bb7e"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Résolution DNS]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Fragment">
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="2794cd8b-4f92-4087-a0b6-9a128295ace7"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">91</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="google.fr" mc="Message" uid="be7b4ec2-e26d-4ced-8cca-ecc47085046d"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[google.fr]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="d3e55e8d-fb29-4f45-b7a8-45a99938aa93"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="d3e55e8d-fb29-4f45-b7a8-45a99938aa93"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">91</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="ca59a4f2-e590-439c-805f-5a9d44320aca"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="cf1f1957-eb57-4cb5-be66-33e5d13a697e"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">738</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="adresse google.fr" mc="Message" uid="1c1ce78d-c77b-4fed-80ae-1d4d88e99760"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[adresse google.fr]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="bf1d63c4-386b-42d0-8f0d-d9d21b34c9eb"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="ca59a4f2-e590-439c-805f-5a9d44320aca"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">91</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="cf1f1957-eb57-4cb5-be66-33e5d13a697e"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="bf1d63c4-386b-42d0-8f0d-d9d21b34c9eb"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">758</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CombinedFragment" mc="CombinedFragment" uid="9bd41fb6-2819-46e2-aab4-3c5291b8c380"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="Operator">AltOp</ATT>
+            <ATT name="LineNumber">146</ATT>
+            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Operand">
+              <OBJECT>
+                <ID name="InteractionOperand" mc="InteractionOperand" uid="0673e073-df5c-4049-8b76-25c34fc3b840"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[DNS à ce nom en cache]]></ATT>
+                  <ATT name="EndLineNumber">243</ATT>
+                  <ATT name="LineNumber">146</ATT>
+                  <ATT name="Name"><![CDATA[InteractionOperand]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="InteractionOperand" uid="18c28a9a-ce66-48b8-bb01-a493d5e0ed75"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Sinon]]></ATT>
+                  <ATT name="EndLineNumber">834</ATT>
+                  <ATT name="LineNumber">244</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="DNS secondaire" mc="Lifeline" uid="34bbc7db-0d3a-4be6-97ca-7d6db8b9092b"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="TLD" mc="Lifeline" uid="e6572f45-d59d-4d9f-9010-61e00864340c"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="InteractionOperand" mc="InteractionOperand" uid="0673e073-df5c-4049-8b76-25c34fc3b840"/>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="dce6f380-456a-4136-be4f-a53476ef697a"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">206</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="addresse de google.fr" mc="Message" uid="c02be7ba-b3af-40b6-b880-c89b03db0ef3"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[addresse de google.fr]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="228c8e1f-1830-49d3-ad0b-875531094e32"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="228c8e1f-1830-49d3-ad0b-875531094e32"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">211</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CombinedFragment" mc="CombinedFragment" uid="a343634b-2eb3-491d-9267-fc1598ff8aee"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="Operator">AltOp</ATT>
+            <ATT name="LineNumber">306</ATT>
+            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Operand">
+              <OBJECT>
+                <ID name="" mc="InteractionOperand" uid="6ab41235-c3d3-4c57-bd22-a740caa00369"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Si le domaine .fr n'existe pas]]></ATT>
+                  <ATT name="EndLineNumber">366</ATT>
+                  <ATT name="LineNumber">306</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="InteractionOperand" mc="InteractionOperand" uid="f965d24a-d922-4dfc-973d-0c2f18435026"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Sinon]]></ATT>
+                  <ATT name="EndLineNumber">802</ATT>
+                  <ATT name="LineNumber">367</ATT>
+                  <ATT name="Name"><![CDATA[InteractionOperand]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="DNS secondaire" mc="Lifeline" uid="34bbc7db-0d3a-4be6-97ca-7d6db8b9092b"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="TLD" mc="Lifeline" uid="e6572f45-d59d-4d9f-9010-61e00864340c"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="3f247ff9-23cd-4426-9f99-4107b0d1d84d"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">341</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Erreur" mc="Message" uid="c7f33277-996d-4e17-b62d-05fdfae205f2"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[Erreur]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="837887dd-b5a9-44b9-972b-749f0922cce4"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="837887dd-b5a9-44b9-972b-749f0922cce4"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">356</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="InteractionOperand" mc="InteractionOperand" uid="f965d24a-d922-4dfc-973d-0c2f18435026"/>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="ba629fa5-a03d-40eb-9ea3-043cc890b36e"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">403</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Obtenir liste de DNS pour google.fr" mc="Message" uid="e43cd06a-9ce6-441c-a7c2-66ac07e4a7a8"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[Obtenir liste de DNS pour google.fr]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="17a9a880-5c76-4052-a89e-5eaed100e8ae"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="17a9a880-5c76-4052-a89e-5eaed100e8ae"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">403</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="418f4085-1af9-45f9-a590-d9d514a8b0d8"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="TLD" mc="Lifeline" uid="e6572f45-d59d-4d9f-9010-61e00864340c"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="289eed6d-e4a8-4475-b27a-6be5459d5495"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">423</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Liste" mc="Message" uid="3b825a29-faa7-45ad-b4e7-8ce4d2b0aced"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[Liste]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="d5416e1b-2281-4f82-a645-27da86e1fafe"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="TLD" mc="Lifeline" uid="e6572f45-d59d-4d9f-9010-61e00864340c"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="418f4085-1af9-45f9-a590-d9d514a8b0d8"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">403</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="289eed6d-e4a8-4475-b27a-6be5459d5495"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="TLD" mc="Lifeline" uid="e6572f45-d59d-4d9f-9010-61e00864340c"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="d5416e1b-2281-4f82-a645-27da86e1fafe"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">443</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="CombinedFragment" mc="CombinedFragment" uid="6dbd03e8-dda0-4da5-88c9-bf6325d23f6e"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="Operator">AltOp</ATT>
+            <ATT name="LineNumber">506</ATT>
+            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Operand">
+              <OBJECT>
+                <ID name="" mc="InteractionOperand" uid="c8337326-749b-48b2-90a9-fa2f7251e543"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Si la liste est vide]]></ATT>
+                  <ATT name="EndLineNumber">585</ATT>
+                  <ATT name="LineNumber">506</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="InteractionOperand" mc="InteractionOperand" uid="32373928-4154-4e33-bc70-e9061072a4aa"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[Sinon]]></ATT>
+                  <ATT name="EndLineNumber">771</ATT>
+                  <ATT name="LineNumber">586</ATT>
+                  <ATT name="Name"><![CDATA[InteractionOperand]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="DNS secondaire" mc="Lifeline" uid="34bbc7db-0d3a-4be6-97ca-7d6db8b9092b"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="TLD" mc="Lifeline" uid="e6572f45-d59d-4d9f-9010-61e00864340c"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="6267c4dd-660b-4e4c-acf5-fa0f1df315e3"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">540</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Erreur" mc="Message" uid="b0e7ea0b-3223-45e7-81ca-94700178aab5"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[Erreur]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="6e55c3b5-4ab5-4ec5-ab41-117c4d462dc2"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="6e55c3b5-4ab5-4ec5-ab41-117c4d462dc2"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">558</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="InteractionOperand" mc="InteractionOperand" uid="32373928-4154-4e33-bc70-e9061072a4aa"/>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="4c106325-2b9e-4c32-927c-b9572c542a88"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">623</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="Demande de l'adresse de google.fr" mc="Message" uid="2c621807-26b2-4955-ab96-d542c4555ea0"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="Name"><![CDATA[Demande de l'adresse de google.fr]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="92e73af6-eae2-44d7-aa1a-e3c05a935111"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="92e73af6-eae2-44d7-aa1a-e3c05a935111"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">627</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Started">
+              <REFOBJ>
+                <ID name="" mc="ExecutionSpecification" uid="5391bb48-9b74-46c1-9db1-02695a89a03d"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS secondaire" mc="Lifeline" uid="34bbc7db-0d3a-4be6-97ca-7d6db8b9092b"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="a8ec5d63-cc69-4b96-8f11-d680dd9c9f14"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">667</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="SentMessage">
+              <OBJECT>
+                <ID name="adresse google.fr" mc="Message" uid="b1860657-cdfd-4f9a-9508-fa1ac73bf096"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Argument"></ATT>
+                  <ATT name="KindOfMessage">CompleteKind</ATT>
+                  <ATT name="SortOfMessage">ReturnMessage</ATT>
+                  <ATT name="Name"><![CDATA[adresse google.fr]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ReceiveEvent">
+                    <REFOBJ>
+                      <ID name="" mc="ExecutionOccurenceSpecification" uid="2ce24eb0-feab-4cb0-9a75-8de665889892"/>
+                      <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS secondaire" mc="Lifeline" uid="34bbc7db-0d3a-4be6-97ca-7d6db8b9092b"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionSpecification" uid="5391bb48-9b74-46c1-9db1-02695a89a03d"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">627</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Finish">
+              <REFOBJ>
+                <ID name="" mc="ExecutionOccurenceSpecification" uid="a8ec5d63-cc69-4b96-8f11-d680dd9c9f14"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS secondaire" mc="Lifeline" uid="34bbc7db-0d3a-4be6-97ca-7d6db8b9092b"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="ExecutionOccurenceSpecification" uid="2ce24eb0-feab-4cb0-9a75-8de665889892"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">687</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="r" mc="Lifeline" uid="2133b1a7-25a0-4d51-9b45-fa5bdc58bd25"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="BindableInstance" uid="548e1792-0511-4291-9bfd-4933621586d2"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DNS Primaire" mc="Lifeline" uid="fbd82651-4cfe-43a1-bcda-ead3ebe58e95"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[DNS Primaire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TLD" mc="Lifeline" uid="e6572f45-d59d-4d9f-9010-61e00864340c"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[TLD]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="DNS secondaire" mc="Lifeline" uid="34bbc7db-0d3a-4be6-97ca-7d6db8b9092b"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[DNS secondaire]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Collaboration" uid="ea95424f-ec04-4652-9229-e5b0ea40817e"/>
+          <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="BindableInstance" uid="548e1792-0511-4291-9bfd-4933621586d2"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Client" mc="Actor" uid="2df0585c-2c1a-4e70-b55c-21da04106e86"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r1" mc="BindableInstance" uid="95705d66-1acb-4b25-8dc3-ff7e274e6f6c"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Résolution DNS" mc="UseCase" uid="0211438f-75f9-41c2-8bcf-a36b145c6595"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r2" mc="BindableInstance" uid="614ae784-361a-46c3-a765-a799ff6f1441"/>
+                <PID name="Résolution DNS" mc="Interaction" uid="92696e7e-6ec1-4021-9f90-27cc536832eb"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Résolution DNS" mc="SequenceDiagram" uid="d171a4dc-a9bc-441f-a57c-f932d32b4384"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
